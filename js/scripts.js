@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     var result = factorial(a);
 
-    $("#triangletype").text(result);
+    $("#factorialdisplay").text(result); 
 
     $("#result").show();
     event.preventDefault();
